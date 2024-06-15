@@ -1,7 +1,7 @@
 function shortcut(s1, s2) {
   // your code here
-	if(s1="" || s2=""){
-		retuen '';
+		if(s1=="" || s2==""){
+		return '';
 	}
 	else{
 		return s1.charAt(0)+s2.charAt(0);
